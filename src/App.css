@@ -9,8 +9,6 @@ body {
   min-height: 100vh;
   background-color: #21212b;
 }
-h1 {
-  color: whitesmoke;
-  text-transform: uppercase;
-  font-weight: lighter;
+::-webkit-scrollbar {
+  width: 0px;
 }

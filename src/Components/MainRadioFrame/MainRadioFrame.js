@@ -5,8 +5,9 @@ import "./MainRadioFrame.css";
 const MainRadioFrame = () => {
   return (
     <div className="mainRadioFrame">
-      {/* Station */}
+      {/* //////////////////// Stations ////////////////////// */}
       <div className="singleRadioFrame">
+        {/* Top Bar */}
         <div className="topBar">
           <a href="/#" alt="">
             <FontAwesomeIcon
@@ -15,7 +16,7 @@ const MainRadioFrame = () => {
             />
           </a>
           <a href="/#" alt="">
-            Station
+            Stations
           </a>
           <a href="/#" alt="">
             <FontAwesomeIcon
@@ -24,9 +25,73 @@ const MainRadioFrame = () => {
             />
           </a>
         </div>
+        {/* Station Name List  */}
+        <div className="stationNameList">
+          <div className="stationName">
+            <a href="/#" alt="">
+              <h2>BHOOT FM</h2>
+              <h2>98.8</h2>
+            </a>
+          </div>
+          <div className="stationName">
+            <a href="/#" alt="">
+              <h2>BHOOT FM</h2>
+              <h2>98.8</h2>
+            </a>
+          </div>
+          <div className="stationName">
+            <a href="/#" alt="">
+              <h2>BHOOT FM</h2>
+              <h2>98.8</h2>
+            </a>
+          </div>
+          <div className="stationName">
+            <a href="/#" alt="">
+              <h2>BHOOT FM</h2>
+              <h2>98.8</h2>
+            </a>
+          </div>
+          <div className="stationName">
+            <a href="/#" alt="">
+              <h2>BHOOT FM</h2>
+              <h2>98.8</h2>
+            </a>
+          </div>
+          <div className="stationName">
+            <a href="/#" alt="">
+              <h2>BHOOT FM</h2>
+              <h2>98.8</h2>
+            </a>
+          </div>
+          <div className="stationName">
+            <a href="/#" alt="">
+              <h2>BHOOT FM</h2>
+              <h2>98.8</h2>
+            </a>
+          </div>
+          <div className="stationName">
+            <a href="/#" alt="">
+              <h2>BHOOT FM</h2>
+              <h2>98.8</h2>
+            </a>
+          </div>
+          <div className="stationName">
+            <a href="/#" alt="">
+              <h2>BHOOT FM</h2>
+              <h2>98.8</h2>
+            </a>
+          </div>
+          <div className="stationName">
+            <a href="/#" alt="">
+              <h2>BHOOT FM</h2>
+              <h2>98.8</h2>
+            </a>
+          </div>
+        </div>
+        {/* Bottom Bar  */}
         <div className="bottomBar"></div>
       </div>
-      {/* FM Radio */}
+      {/* //////////////////// FM Radio ////////////////////// */}
       <div className="singleRadioFrame">
         <div className="topBar">
           <a href="/#" alt="">
@@ -45,7 +110,12 @@ const MainRadioFrame = () => {
             />
           </a>
         </div>
-        <div className="bottomBar"><p>Now Playing</p></div>
+        <div className="bottomBar">
+          <div>
+            <p>Now Playing</p>
+            <h3>BHOOT FM</h3>
+          </div>
+        </div>
       </div>
     </div>
   );
