@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faPowerOff } from "@fortawesome/free-solid-svg-icons";
+import Wave from "../../imgs/wave.png";
 import "./MainRadioFrame.css";
 const MainRadioFrame = () => {
   return (
@@ -93,6 +94,7 @@ const MainRadioFrame = () => {
       </div>
       {/* //////////////////// FM Radio ////////////////////// */}
       <div className="singleRadioFrame">
+        {/* Top Bar */}
         <div className="topBar">
           <a href="/#" alt="">
             <FontAwesomeIcon
@@ -110,6 +112,16 @@ const MainRadioFrame = () => {
             />
           </a>
         </div>
+        {/* Single Station */}
+        <div className="singleStation">
+        <div className="circle">
+        <h1>98.9</h1>
+        </div>
+        <div>
+          <img className="wave" src={Wave} alt="" />
+        </div>
+        </div>
+        {/* Bottom Bar  */}
         <div className="bottomBar">
           <div>
             <p>Now Playing</p>
