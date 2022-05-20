@@ -1,0 +1,12 @@
+.mainRadioFrame {
+  display: flex;
+  align-items: center;
+}
+
+.singleRadioFrame {
+  width: 300px;
+  height: 512px;
+  border-radius: 35px;
+  margin: 20px;
+  background-color: #2f2f3a;
+}

@@ -1,9 +1,10 @@
 import "./App.css";
+import MainRadioFrame from "./Components/MainRadioFrame/MainRadioFrame";
 
 function App() {
   return (
     <div className="App">
-      <h1>Radio Widget</h1>
+      <MainRadioFrame />
     </div>
   );
 }
