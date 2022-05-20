@@ -2,11 +2,27 @@
   display: flex;
   align-items: center;
 }
-
 .singleRadioFrame {
   width: 300px;
   height: 512px;
-  border-radius: 35px;
+  border-radius: 25px;
   margin: 20px;
   background-color: #2f2f3a;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  overflow: hidden;
+}
+.frameBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 70px;
+  background-color: #5cd85a;
+}
+.frameBar a {
+  text-decoration: none;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: lighter;
 }
