@@ -7,7 +7,7 @@ const MainRadioFrame = () => {
     <div className="mainRadioFrame">
       {/* Station */}
       <div className="singleRadioFrame">
-        <div className="frameBar">
+        <div className="topBar">
           <a href="/#" alt="">
             <FontAwesomeIcon
               className="mx-2 text-red-500 icon"
@@ -24,10 +24,11 @@ const MainRadioFrame = () => {
             />
           </a>
         </div>
+        <div className="bottomBar"></div>
       </div>
       {/* FM Radio */}
       <div className="singleRadioFrame">
-        <div className="frameBar">
+        <div className="topBar">
           <a href="/#" alt="">
             <FontAwesomeIcon
               className="mx-2 text-red-500 icon"
@@ -44,6 +45,7 @@ const MainRadioFrame = () => {
             />
           </a>
         </div>
+        <div className="bottomBar"><p>Now Playing</p></div>
       </div>
     </div>
   );
