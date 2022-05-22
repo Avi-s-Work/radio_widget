@@ -5,9 +5,9 @@ import Wave from "../../../imgs/wave.png";
 
 const FmRadio = ({ selectedStation }) => {
   return (
-    <div>
+    <>
       {selectedStation.map((singleStaions) => (
-        <div key={singleStaions._id} className="singleRadioFrame">
+        <section key={singleStaions._id} className="singleRadioFrame">
           {/* Top Bar */}
           <div className="topBar">
             <a href="/#" alt="">
@@ -42,9 +42,9 @@ const FmRadio = ({ selectedStation }) => {
               <h3>{singleStaions.stationName}</h3>
             </div>
           </div>
-        </div>
+        </section>
       ))}
-    </div>
+    </>
   );
 };
 

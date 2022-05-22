@@ -4,8 +4,8 @@ import { faChevronLeft, faPowerOff } from "@fortawesome/free-solid-svg-icons";
 
 const Stations = ({ stations, clickSingleStation }) => {
   return (
-    <div>
-      <div className="singleRadioFrame">
+    <>
+      <section className="singleRadioFrame">
         {/* Top Bar */}
         <div className="topBar">
           <a href="/#" alt="">
@@ -37,8 +37,8 @@ const Stations = ({ stations, clickSingleStation }) => {
         </div>
         {/* Bottom Bar  */}
         <div className="bottomBar"></div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 };
 

@@ -20,10 +20,12 @@ const MainRadioFrame = () => {
   };
 
   return (
-    <div className="mainRadioFrame">
-      <Stations stations={stations} clickSingleStation={clickSingleStation} />
-      <FmRadio selectedStation={selectedStation} />
-    </div>
+    <>
+      <div className="mainRadioFrame">
+        <Stations stations={stations} clickSingleStation={clickSingleStation} />
+        <FmRadio selectedStation={selectedStation} />
+      </div>
+    </>
   );
 };
 
