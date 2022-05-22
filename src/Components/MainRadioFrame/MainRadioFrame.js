@@ -8,7 +8,7 @@ const MainRadioFrame = () => {
   const [selectedStation, SetSelectedStation] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/stations")
+    fetch("https://mysterious-earth-60925.herokuapp.com/stations")
       .then((res) => res.json())
       .then((data) => setStations(data));
   }, []);

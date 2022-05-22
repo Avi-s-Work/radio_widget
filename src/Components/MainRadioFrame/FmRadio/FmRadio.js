@@ -11,19 +11,13 @@ const FmRadio = ({ selectedStation }) => {
           {/* Top Bar */}
           <div className="topBar">
             <a href="/#" alt="">
-              <FontAwesomeIcon
-                className="mx-2 text-red-500 icon"
-                icon={faChevronLeft}
-              />
+              <FontAwesomeIcon icon={faChevronLeft} />
             </a>
             <a href="/#" alt="">
               FM Radio
             </a>
             <a href="/#" alt="">
-              <FontAwesomeIcon
-                className="mx-2 text-red-500 icon"
-                icon={faPowerOff}
-              />
+              <FontAwesomeIcon icon={faPowerOff} />
             </a>
           </div>
           {/* Wave & Frequncy */}
